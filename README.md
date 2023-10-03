@@ -4,6 +4,8 @@ This project demonstrates real-time data ingestion and processing using Azure Ev
 
 ## Overview
 
+![workflow](workflow.png)
+
 1. **Structured Streaming**: An introduction to Spark's structured streaming concepts is provided, showcasing how Spark handles real-time data processing.
 2. **Azure Event Hub as Sink**: Streaming data is sent into Azure Event Hub, turning it into a data ingestion hub.
 3. **Azure Event Hub as Source**: Data is continuously read from the Azure Event Hub, transformed, and processed in real-time using Spark on Databricks.
