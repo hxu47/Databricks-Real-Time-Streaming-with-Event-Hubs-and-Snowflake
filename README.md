@@ -1,4 +1,4 @@
-# Databricks-Real-Time-Streaming-with-Event-Hubs-and-Snowflake
+# Databricks Real-Time Streaming with Event Hubs and Snowflake
 
 This project demonstrates real-time data ingestion and processing using Azure Event Hub, Databricks, and Snowflake. Leveraging Spark's structured streaming capabilities, the project showcases how to ingest, transform, and save streaming data, providing a blueprint for real-time analytics solutions.
 
@@ -13,13 +13,13 @@ This project demonstrates real-time data ingestion and processing using Azure Ev
 ## Steps
 
 1. **Structured Streaming**:
-    - Use the `Structured-Streaming-Concepts.py` to understand the basic operations like defining a streaming DataFrame, performing transformations, and writing the transformed data.
+   Use the `Structured-Streaming-Concepts.py` to understand the basic operations like defining a streaming DataFrame, performing transformations, and writing the transformed data.
   
 2. **Data Ingestion to Event Hub**:
-    - Use `Streaming-With-Event-Hubs-Demo.py` to initialize the streaming DataFrame and write it to the Event Hub.
+   Use `Streaming-With-Event-Hubs-Demo.py` to initialize the streaming DataFrame and write it to the Event Hub.
   
 3. **Reading and Processing from Event Hub**:
-    - Use `Reading-from-Event-Hubs-Demo.py` to:
+   Use `Reading-from-Event-Hubs-Demo.py` to:
         1. Establish a connection to the Event Hub.
         2. Read data from the Event Hub into a streaming DataFrame.
         3. Define the schema of the incoming data.
